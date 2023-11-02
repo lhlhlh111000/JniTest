@@ -1,3 +1,3 @@
 package com.pig.android.test
 
-data class Model()
+data class Poetry(val author:String, val title:String, val text:String)
