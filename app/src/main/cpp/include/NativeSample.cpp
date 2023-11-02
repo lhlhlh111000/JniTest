@@ -12,7 +12,7 @@ extern "C"
 JNIEXPORT jstring JNICALL
 Java_com_pig_android_test_NativeSample_sayHello(JNIEnv *env, jobject thiz) {
 
-    throw "Test error.";
+//    throw "Test error.";
 
     return (*env).NewStringUTF("hello.");
 }
