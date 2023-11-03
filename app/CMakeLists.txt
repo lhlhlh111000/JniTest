@@ -17,6 +17,7 @@ add_library(
         ${PROJECT_NAME}
         SHARED
         src/main/cpp/include/NativeSample.cpp
+        src/main/cpp/include/NcnnSample.cpp
 )
 
 find_library(
